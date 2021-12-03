@@ -25,3 +25,4 @@ for (let i = 1; i < depths.length; i++) {
 console.log("Increase count=" + increaseCount);
 console.log("decreaseCount count=" + decreaseCount);
 console.log("notChanged count=" + notChanged);
+// deno run --allow-read count_by_window.ts short_test.txt
